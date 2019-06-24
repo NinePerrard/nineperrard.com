@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80d5c6b8-1c31-4b17-8469-744b8d83e514" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/WIP_ID_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/WIP_ID_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/chatte_au_miel_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/chatte_au_miel_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/dismissed_narratives_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/dismissed_narratives_2_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/dismissed_narratives_2_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/dismissed_narratives_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/idees_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/idees_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/imagining_changes_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/imagining_changes_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/marie_antoinette_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/marie_antoinette_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/near_variation_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/near_variation_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/nuts_and_muttons_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/nuts_and_muttons_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/seams2_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/seams2_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/seams_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/seams_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/stitch_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/stitch_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/typographic_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/typographic_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/typographic_s_1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/typographic_s_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app.896086aa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/app.896086aa.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/public/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-    </list>
+    <list default="true" id="80d5c6b8-1c31-4b17-8469-744b8d83e514" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +16,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/styles/index.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="304">
                   <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/docs/CNAME">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="14" selection-start-column="14" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -180,10 +149,10 @@
         <option value="$PROJECT_DIR$/assets/data.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/webpack/webpack.common.js" />
-        <option value="$PROJECT_DIR$/docs/CNAME" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/scripts/index.js" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
+        <option value="$PROJECT_DIR$/docs/CNAME" />
       </list>
     </option>
   </component>
@@ -207,6 +176,11 @@
             <path>
               <item name="nineperrard.fr" type="b2602c69:ProjectViewProjectNode" />
               <item name="nineperrard.fr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nineperrard.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nineperrard.fr" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nineperrard.fr" type="b2602c69:ProjectViewProjectNode" />
@@ -342,18 +316,18 @@
       <workItem from="1561152538805" duration="5847000" />
       <workItem from="1561209348289" duration="12007000" />
       <workItem from="1561245561625" duration="2373000" />
-      <workItem from="1561369619496" duration="7302000" />
+      <workItem from="1561369619496" duration="7417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27529000" />
+    <option name="totallyTimeSpent" value="27644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17887668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17887668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -367,7 +341,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.53265303" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.53265303" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" />
@@ -434,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/webpack.common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -479,6 +446,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
