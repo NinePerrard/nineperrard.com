@@ -14,7 +14,7 @@ body {
 	margin-right: 8%;
 }
 
-#contact-small{
+#contact-small {
 	display: none;
 	@media screen and (max-width: $break-small) {
 		display: block;
@@ -94,32 +94,37 @@ body {
 }
 
 #article-container {
-	aside {
-		display: flex;
-		@media screen and (max-width: $break-small) {
-			flex-direction: column-reverse;
+	display: flex;
+	@media screen and (max-width: $break-small) {
+		flex-direction: column-reverse;
+	}
+
+	.legend-container {
+		flex: 4;
+
+		h1 {
+			@media screen and (min-width: $break-small) {
+				margin: 0;
+			}
+			font-family: 'Alegreya', serif;
 		}
 
-		.legend {
-			h1 {
-				@media screen and (min-width: $break-small) {
-					margin:0;
-				}
-				font-family: 'Alegreya', serif;
-			}
+		.legend-content {
+			font-family: 'Overpass', serif;
+		}
 
-			.legend-content {
-				font-family: 'Overpass', serif;
-			}
+
+	}
+
+	.picture-container {
+		flex: 6;
+		padding-left: 5%;
+		text-align: center;
+		@media screen and (max-width: $break-small) {
+			padding-left: 0;
 		}
 
 		picture {
-			padding-left: 5%;
-			@media screen and (max-width: $break-small) {
-				padding-left: 0;
-			}
-			flex: 6;
-
 			img {
 				max-width: 100%;
 				max-height: 600px;
@@ -128,16 +133,65 @@ body {
 				//max-height: 500px;
 			}
 		}
-
-		.legend {
-			flex: 4;
+		
+		.arrow-container {
+			display: flex;
+			justify-content: center;
+			.arrow{
+				font-family: 'Overpass', serif;
+				font-weight: bold;
+				padding: 5px;
+				font-size: 20pt;
+			}
 		}
 	}
-
-	lang {
-		display: none;
-	}
 }
+
+//#article-container {
+//	aside {
+//		display: flex;
+//		@media screen and (max-width: $break-small) {
+//			flex-direction: column-reverse;
+//		}
+//
+//		.legend {
+//			h1 {
+//				@media screen and (min-width: $break-small) {
+//					margin:0;
+//				}
+//				font-family: 'Alegreya', serif;
+//			}
+//
+//			.legend-content {
+//				font-family: 'Overpass', serif;
+//			}
+//		}
+//
+//		picture {
+//			padding-left: 5%;
+//			@media screen and (max-width: $break-small) {
+//				padding-left: 0;
+//			}
+//			flex: 6;
+//
+//			img {
+//				max-width: 100%;
+//				max-height: 600px;
+//				width: auto;
+//				height: auto;
+//				//max-height: 500px;
+//			}
+//		}
+//
+//		.legend {
+//			flex: 4;
+//		}
+//	}
+//
+//	lang {
+//		display: none;
+//	}
+//}
 
 footer {
 	position: fixed;

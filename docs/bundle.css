@@ -71,34 +71,40 @@ body {
 .data {
   display: none; }
 
-#article-container aside {
+#article-container {
   display: flex; }
   @media screen and (max-width: 800px) {
-    #article-container aside {
+    #article-container {
       flex-direction: column-reverse; } }
-  #article-container aside .legend h1 {
-    font-family: 'Alegreya', serif; }
-    @media screen and (min-width: 800px) {
-      #article-container aside .legend h1 {
-        margin: 0; } }
-  #article-container aside .legend .legend-content {
-    font-family: 'Overpass', serif; }
-  #article-container aside picture {
+  #article-container .legend-container {
+    flex: 4; }
+    #article-container .legend-container h1 {
+      font-family: 'Alegreya', serif; }
+      @media screen and (min-width: 800px) {
+        #article-container .legend-container h1 {
+          margin: 0; } }
+    #article-container .legend-container .legend-content {
+      font-family: 'Overpass', serif; }
+  #article-container .picture-container {
+    flex: 6;
     padding-left: 5%;
-    flex: 6; }
+    text-align: center; }
     @media screen and (max-width: 800px) {
-      #article-container aside picture {
+      #article-container .picture-container {
         padding-left: 0; } }
-    #article-container aside picture img {
+    #article-container .picture-container picture img {
       max-width: 100%;
       max-height: 600px;
       width: auto;
       height: auto; }
-  #article-container aside .legend {
-    flex: 4; }
-
-#article-container lang {
-  display: none; }
+    #article-container .picture-container .arrow-container {
+      display: flex;
+      justify-content: center; }
+      #article-container .picture-container .arrow-container .arrow {
+        font-family: 'Overpass', serif;
+        font-weight: bold;
+        padding: 5px;
+        font-size: 20pt; }
 
 footer {
   position: fixed;
