@@ -1,0 +1,20 @@
+extends ../../includes/article_layout_fr
+
+block title
+    header
+        h1 Le TOC de Marie-Antoinette, 2018
+block content
+    p
+        | Livre d’artiste sur le plaisir coupable de se limer les ongles.
+        br
+        br
+        | — Édition limitée vendu au salon ASP4 2018
+        | (Artists Self Publisher fair) à Londres avec le collectif Guilty Pleasures.
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/marie_antoinette_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/marie_antoinette_1024.jpg')
+        img.article-img(src='/assets/marie_antoinette_1024.jpg')
+block variables
+    - previous = '/en/idees'
+    - next = '/en/near_variations'

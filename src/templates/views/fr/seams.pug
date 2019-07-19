@@ -1,0 +1,17 @@
+extends ../../includes/article_layout_fr
+
+block title
+    header
+        h1  Seamless seams, 2018
+block content
+    p
+        | Essai critique de Sophie Tolhurst sur la couture comme ligne invisible. Design en collaboration avec Yilin
+        | Wang
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/seams_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/seams_1024.jpg')
+        img.article-img(src='/assets/stitch_1024.jpg')
+block variables
+    - previous = '/en/nuts_and_muttons'
+    - next = '/en/seams_2'

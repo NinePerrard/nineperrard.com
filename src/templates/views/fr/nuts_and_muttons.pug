@@ -1,0 +1,19 @@
+extends ../../includes/article_layout_fr
+
+block title
+    header
+        h1 Nuts and Muttons, 2018
+block content
+    lang(code='en-US')
+        p
+            | Catalogue de caractères typographiques en fonte du Royal College of Art.
+            | Feuillets typographiés en collaboration avec une vingtaine d’élèves lors d’un workshop presse typographique
+            | organisé par Ian Gabb et Robert Hetherington.
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/nuts_and_muttons_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/nuts_and_muttons_1024.jpg')
+        img.article-img(src='/assets/nuts_and_muttons_1024.jpg')
+block variables
+    - previous = '/en/imagining_changes'
+    - next = '/en/stitch'

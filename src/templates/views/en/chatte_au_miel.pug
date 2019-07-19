@@ -1,0 +1,22 @@
+extends ../../includes/article_layout_en
+
+block title
+    header
+        h1 La Chatte Au Miel, 2019
+block content
+    p
+        | Artist book in collaboration with the photographer Marie Muller for the erotic and feminist project
+        br
+        i La Chatte au Miel
+        a(href='https://www.lachatteaumiel.com') www.lachatteaumiel.com
+        br
+        br
+        | — Printed on the occasion of Offprint London 2019
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/chatte_au_miel_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/chatte_au_miel_1024.jpg')
+        img.article-img(src='/assets/chatte_au_miel_1024.jpg')
+block variables
+    - previous = '/en/seams_2'
+    - next = '/en/wip'

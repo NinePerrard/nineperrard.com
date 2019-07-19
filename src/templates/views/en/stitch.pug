@@ -1,0 +1,19 @@
+extends ../../includes/article_layout_en
+
+block title
+    header
+        h1 Stitch’n Type, 2018
+block content
+    p
+        | Embroidery workshop inspired by the
+        i Stitch Bitches
+        |  leading to discuss women in Type Design organised on
+        | the occasion of the 2018 Common Market at the Royal College of Art.
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/stitch_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/stitch_1024.jpg')
+        img.article-img(src='/assets/stitch.jpg')
+block variables
+    - previous = '/en/nuts_and_muttons'
+    - next = '/en/seams'

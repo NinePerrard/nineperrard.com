@@ -1,0 +1,24 @@
+extends ../../includes/article_layout_en
+
+block title
+    header
+        h1 Near, Variations, 2018
+block content
+    p
+        | Layout of Flavia Gimenes’ essay
+        i The body is just an entry point
+        |  about photographer Laura Aguilar’s work.
+        | Annual publication of MA students from the Critical Writing Program at the Royal College of Art, 2018.
+        br
+        | Each essay has been designed by a different graphic designer.
+        br
+        br
+        | — Art Direction: Tuomas Kortteinen
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/near_variation_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/near_variation_1024.jpg')
+        img.article-img(src='/assets/near_variation_1024.jpg')
+block variables
+    - previous = '/en/marie_antoinette'
+    - next = '/en/imagining_changes'

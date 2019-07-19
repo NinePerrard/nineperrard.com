@@ -1,0 +1,25 @@
+extends ../../includes/article_layout_fr
+
+block title
+    header
+        h1 Imagining Change, 2019
+block content
+    p
+        | Direction artistique et design en collaboration avec Servane Vignes et Elise d’Arbaumont pour l’ouvrage
+        | collectif
+        i Imagining Change
+        |  présentant les recherches et projets pour des futurs possibles pensés par des
+        | étudiants du master de Communication visuelle du Royal College of Art.
+        br
+        | Chaque étudiant a conçu ses propres doubles pages de recherches.
+        br
+        br
+        | — Photos: Zea Lindström, Frederikke Frydenlund, Ju-Che (Ray) Wu
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/imagining_changes_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/imagining_changes_1024.jpg')
+        img.article-img(src='/assets/imagining_changes_1024.jpg')
+block variables
+    - previous = '/en/near_variations'
+    - next = '/en/nuts_and_muttons'

@@ -1,0 +1,28 @@
+extends ../../includes/article_layout_fr
+
+block title
+    header
+        h1 Typographic Singularity, 2019
+block content
+    p
+        | Commissariat et design d’espace pour l’exposition annuelle
+        i Typographic Singularity
+        |  au Royal College of
+        |                Art.
+        |                Mise en exergue du processus de création et
+        |                d’expérimentation typographique.
+        br
+        |                Design, organisation et curation en collaboration
+        |                avec Pamela Dimitrov et Céline Strolz.
+        br
+        br
+        |                — Identité visuelle: Elise d’Arbaumont, Emily
+        |                Schofield, Sara Ozvaldic
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/typographic_s_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/typographic_s_1024.jpg')
+        img.article-img(src='/assets/typographic_s_1024.jpg')
+block variables
+    - previous = '/en/dismissed_narratives_2'
+    - next = '/en/typographic_singularity_2'

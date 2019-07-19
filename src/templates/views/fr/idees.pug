@@ -1,0 +1,17 @@
+extends ../../includes/article_layout_fr
+
+block title
+    header
+        h1 D’où sors-tu ces idées?, 2016
+block content
+    p
+        | Édition sur la relation entre créateur·trices et leurs travaux.
+        | Collection d’articles et d’entrevues d’artistes et de designers à propos leurs sources d’inspiration.
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/idees_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/idees_1024.jpg')
+        img.article-img(src='/assets/idees_640.jpg')
+block variables
+    - previous = '/en/typographic_singularity_2'
+    - next = '/en/marie_antoinette'

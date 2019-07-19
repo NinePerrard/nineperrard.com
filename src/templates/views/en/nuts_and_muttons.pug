@@ -1,0 +1,19 @@
+extends ../../includes/article_layout_en
+
+block title
+    header
+        h1 Nuts and Muttons, 2018
+block content
+    lang(code='en-US')
+        p
+            | Letterpress font catalog of the Royal College of Art
+            | Leaflets typeset in collaboration with about twenty students. Letterpress workshop supported by Ian Gabb and
+            | Robert Hetherington.
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/nuts_and_muttons_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/nuts_and_muttons_1024.jpg')
+        img.article-img(src='/assets/nuts_and_muttons_1024.jpg')
+block variables
+    - previous = '/en/imagining_changes'
+    - next = '/en/stitch'

@@ -1,0 +1,13 @@
+include common_en
+- var previous = '/#'
+- var next = '/#'
+block variables
+#article-container
+    .legend-container
+        block title
+        block content
+    .picture-container
+        .arrow-container
+            a(href=previous)#left-arrow.arrow ⇜
+            a(href=next)#right-arrow.arrow ⇝
+        block picture

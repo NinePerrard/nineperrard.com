@@ -1,0 +1,29 @@
+extends ../../includes/article_layout_fr
+
+block title
+    header
+        h1  Dismissed narratives, 2019
+block content
+    p
+        | Projet de master plurimedia qui vise à publier des témoignages communéments passés sous silence ou discrédités.
+        | Ces histoires ont été rassemblées anonymement et diffusées publiquement sous forme de stickers, de projections
+        i in situ
+        |  et de flyers. Portrait d’une génération en crise identitaire à la recherche del’égalité de
+        |                 considération.
+        br
+        |                 Suite du projet
+        a(href='https://www.instagram.com/dismissed_narratives/') @dismissed_narratives
+        | .
+        br
+        br
+        |                 — Projet exposé au WIP Show 2019 de Communication visuelle du Royal College Art,
+        |                 au Final Show 2019 du RCA et à l’édition juin 2019 de Riposte en collaboration avec
+        |                 Eden Topall-Rabanne.
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/dismissed_narratives_2_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/dismissed_narratives_2_1024.jpg')
+        img.article-img(src='/assets/dismissed_narratives_2_640.jpg')
+block variables
+    - previous = '/en/dismissed_narratives'
+    - next = '/en/typographic_singularity'

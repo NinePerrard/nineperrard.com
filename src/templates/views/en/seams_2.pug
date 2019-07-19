@@ -1,0 +1,16 @@
+extends ../../includes/article_layout_en
+
+block title
+    header
+        h1  Seamless seams, 2018
+block content
+    p
+        | Sophie Tolhurst’s critical essay on seams and lack thereof. Design in collaboration with Yilin Wang
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/seams2_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/seams2_1024.jpg')
+        img.article-img(src='assets/seams2_1024.jpg')
+block variables
+    - previous = '/en/stitch'
+    - next = '/en/chatte_au_miel'

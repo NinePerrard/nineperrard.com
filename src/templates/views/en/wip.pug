@@ -1,0 +1,17 @@
+extends ../../includes/article_layout_en
+
+block title
+    header
+        h1 Wip Show, 2019
+block content
+    p
+        | Identity proposal for the Royal College of Art Work in Progress Show 2019. Collaboration with Sara Ozvaldic and
+        | Pamela Dimitrov.
+block picture
+    picture
+        source(media='(max-width: 1024px)', srcset='/assets/WIP_ID_640.jpg')
+        source(media='(min-width: 600px)', srcset='/assets/WIP_ID_1024.jpg')
+        img.article-img(src='/assets/WIP_ID_1024.jpg')
+block variables
+    - previous = '/en/chatte_au_miel'
+    - next = '/en/dismissed_narratives'
