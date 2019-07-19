@@ -26,6 +26,7 @@ const htmlPluginsFr = generateHtmlPlugins('../src/templates/views', 'fr');
 module.exports = {
   entry: {
     app: Path.resolve(__dirname, '../src/scripts/index.js'),
+    styles: Path.resolve(__dirname, '../src/styles/index.scss'),
   },
   output: {
     path: Path.join(__dirname, '../docs'),
