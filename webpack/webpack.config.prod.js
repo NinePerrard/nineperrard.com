@@ -32,6 +32,7 @@ module.exports = merge(common, {
       },
       {
         test: /\.s?css/i,
+        include: Path.resolve(__dirname, '../src/styles/index.scss'),
         use : [
           MiniCssExtractPlugin.loader,
           'css-loader',
